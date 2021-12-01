@@ -1,0 +1,1 @@
+A pasta model deverá conter todas as classes do sistema
