@@ -1,13 +1,15 @@
 # Descrição: Classe Cliente
-# Contém os atributos do cliente
+# Contém os atributos (dados) do cliente
 
 class Cliente():
     def __init__(self, id, nome, endereco, telefone):
-        self.id = id
+        # atributos da classe
+        self.id = id  # identificador - único! (ex. CPF)
         self.nome = nome
         self.endereco = endereco
         self.telefone = telefone
-    
-    #função da minha classe
-    def print(self):
-        print(self.id, self.nome, self.endereco, self.telefone)
+
+    # função da minha classe
+    # imprime os dados do cliente
+    def imprime(self):
+        print(f'{self.id}, {self.nome}, {self.endereco}, {self.telefone}')
